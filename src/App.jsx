@@ -333,7 +333,7 @@ const OB_STEPS = [
   {
     id: "email",
     q: "Create your sovereign health identity",
-    sub: "Your data is encrypted from the moment you enter. It never reaches a commercial AI server in readable form.",
+    sub: "Health records are encrypted at rest with AES-256-GCM. HIPAA-aligned architecture.",
     type: "email"
   },
   {
@@ -464,7 +464,7 @@ function Onboarding({ onComplete }) {
       <div style={{ marginTop: 16, textAlign: "center" }}>
         <div className="enc-row">
           <div className="enc-dot" />
-          <span className="enc-text">AES-256-GCM · Zero-Knowledge · Sovereign Prompt Shield v5</span>
+          <span className="enc-text">Encrypted at rest with AES-256-GCM · Sovereign Prompt Shield v5</span>
         </div>
         <div className="footer-txt" style={{ marginTop: 6 }}>Sovereign Shield Technologies LLC</div>
       </div>
@@ -815,7 +815,7 @@ export default function SovereignOne() {
             </div>
             <div className="shield-badge">
               <div className="sdot" />
-              <span className="stext">ZK Shield On</span>
+              <span className="stext">Shield On</span>
             </div>
           </div>
         </div>
